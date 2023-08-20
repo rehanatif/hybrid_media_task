@@ -1,0 +1,2 @@
+<button class="btn btn-sm btn-primary" onclick="onFetchFormModal(event,'{{route('update_event',['event_id'=>$rows->id])}}','#md_update_event','#bind_md_update_event')">Update</button>
+<button class="btn btn-sm btn-danger cls_delete" href="{{ route('delete_event', ['event_id' => $rows->id]) }}" content="delete Event" data-table="#events_table">Delete</button>
